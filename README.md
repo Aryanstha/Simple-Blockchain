@@ -71,8 +71,48 @@ gcc -lstdc++ \
 # conclusion
  <p>You can mine a block as well as view the list of blocks in the chain.</p>
  
+ # With JavaScript<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+ <a href="https://github.com/Aryanstha/Simple-Blockchain/tree/main/BLockchain%20with%20js">Click here...</a>
  
+ <p>Blockchain in Javascript (using Node.js)</p>
+ * Understanding of hashing
+ * Setting up  node.js
+ ### To run
+ 
+```
+npm install js-sha256
 
+```
+<h>Add a series of transactions to test it out.</h>
+
+```
+let Block = require('./models/block')
+let Transaction = require('./models/transaction')
+let Blockchain = require('./models/blockchain')
+
+// create genesis block
+let genesisBlock = new Block()
+let blockchain = new Blockchain(genesisBlock)
+
+// create a transaction
+let transaction = new Transaction('Mary','John',100)
+let block = blockchain.getNextBlock([transaction])
+blockchain.addBlock(block)
+
+let anotherTransaction = new Transaction("Azam","Jerry",10)
+let block1 = blockchain.getNextBlock([anotherTransaction,transaction])
+blockchain.addBlock(block1)
+
+console.log(blockchain)
+
+```
+<p>The Blockchain is initialized by passing the Genesis Block.</p>
+
+<p>We then minded some blocks by using the getNextBlock method.</p>
+
+<p>After these blocks have been minded, the transactions were added to the Blockchain.</p>
+
+ 
 
 
 
