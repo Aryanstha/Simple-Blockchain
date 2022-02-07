@@ -8,6 +8,7 @@
 <p> As with most C/C++ programs, everything is kicked off by calling the main method, this one creates a new blockchain (line 2) and informs the user that a block is being mined by printing to the output buffer (line 4) then creates a new block and adds it to the chain (line 5); the process for mining that block will then kick off until a valid hash is found. Once the block is mined the process is repeated for two more blocks.</p>
 
 <p>Time to run it! If you are using CLion simply hit the ‘Run TestChain’ button in the top right hand corner of the window. If you’re old skool, you can compile and run the program using the following commands from the command line:</p>
+
 ```
 gcc -lstdc++ \
     -o TestChain \
@@ -16,6 +17,7 @@ gcc -lstdc++ \
     -x c++ \
     main.cpp Block.cpp Blockchain.cpp sha256.cpp
 ./blockchain with c++
+
 ```
 
 
