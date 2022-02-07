@@ -38,6 +38,7 @@ gcc -lstdc++ \
 
 ## Running Via The Web Browser
 <h2>Let’s run our app through the web browser. When we run the application on Pycharm, we get a local address to run our app from the terminal:</h2>
+
 ![image](https://user-images.githubusercontent.com/67673221/152830936-b132ad1b-2ebf-4385-9d48-9982e0848cd1.png)
 
 <h2>From my terminal, the URL address is 172.20.10.2:5000.</h2>
