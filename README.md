@@ -24,14 +24,14 @@ gcc -lstdc++ \
 ## Prerequisites
 ### To follow along, you should have:
 
-*Some knowledge of Object-Oriented Programming Language with Python
-*A basic understanding of using Postman Desktop
+1. Some knowledge of Object-Oriented Programming Language with Python
+2. basic understanding of using Postman Desktop
 
 ## Tools requirements
-*Pycharm, Visual Studio Code or Anaconda
-* <a href="https://www.postman.com/" >Postman Desktop</a>
-* A virtual environment
-* <a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a>
+1. Pycharm, Visual Studio Code or Anaconda
+2. <a href="https://www.postman.com/" >Postman Desktop</a>
+3. A virtual environment
+4. <a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a>
 
 <p> We make use of Flask to create a web application containing blockchain technology.</p>
 
@@ -75,13 +75,12 @@ gcc -lstdc++ \
  <a href="https://github.com/Aryanstha/Simple-Blockchain/tree/main/BLockchain%20with%20js">Click here...</a>
  
  <p>Blockchain in Javascript (using Node.js)</p>
- * Understanding of hashing
- * Setting up  node.js
+ 1. Understanding of hashing
+ 2. Setting up  node.js
  ### To run
  
 ```
 npm install js-sha256
-
 ```
 <h>Add a series of transactions to test it out.</h>
 
