@@ -24,27 +24,27 @@ gcc -lstdc++ \
 ## Prerequisites
 ### To follow along, you should have:
 
--Some knowledge of Object-Oriented Programming Language with Python
--A basic understanding of using Postman Desktop
+*Some knowledge of Object-Oriented Programming Language with Python
+*A basic understanding of using Postman Desktop
 
 ## Tools requirements
--Pycharm, Visual Studio Code or Anaconda
--<a href="https://www.postman.com/" >Postman Desktop</a>
--A virtual environment
--<a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a>
+*Pycharm, Visual Studio Code or Anaconda
+* <a href="https://www.postman.com/" >Postman Desktop</a>
+* A virtual environment
+* <a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a>
 
-<h2> We make use of Flask to create a web application containing blockchain technology.</h2>
+<p> We make use of Flask to create a web application containing blockchain technology.</p>
 
-<h2>We also require Postman to make requests to interact with our blockchain. The GET request allows us to retrieve the actual state of our blockchain or to mine a block.</h2>
+<p>We also require Postman to make requests to interact with our blockchain. The GET request allows us to retrieve the actual state of our blockchain or to mine a block.</p>
 
 ## Running Via The Web Browser
-<h2>Let’s run our app through the web browser. When we run the application on Pycharm, we get a local address to run our app from the terminal:</h2>
+<p>Let’s run our app through the web browser. When we run the application on Pycharm, we get a local address to run our app from the terminal:</p>
 
 ![image](https://user-images.githubusercontent.com/67673221/152830936-b132ad1b-2ebf-4385-9d48-9982e0848cd1.png)
 
-<h2>From my terminal, the URL address is 172.20.10.2:5000.</h2>
+<p>From my terminal, the URL address is 172.20.10.2:5000.</p>
 
-<h2>In the browser, we start by mining a block, and we do this by calling the mine_block route function we created:</h2>
+<p>In the browser, we start by mining a block, and we do this by calling the mine_block route function we created:</p>
 
 ![image](https://user-images.githubusercontent.com/67673221/152831162-0233597e-82cd-459f-86d2-cbe9c814f95d.png)
 
@@ -58,18 +58,18 @@ gcc -lstdc++ \
 <p>The above functions display the blocks in the chain and their index as intended. Now, let’s repeat this process on the Postman desktop application.</p>
 
 ## Running via Postman
-<h>To mine a block, we copy the mine_block URL and paste it into the request URL bar. Make sure that the request type is GET before sending the request.</h>
+<p>To mine a block, we copy the mine_block URL and paste it into the request URL bar. Make sure that the request type is GET before sending the request.</p>
 
-<h>The result should be similar to the ones shown below:</h1>
+<p>The result should be similar to the ones shown below:</p>
 
 ![image](https://user-images.githubusercontent.com/67673221/152831685-9d2a59f5-5730-48a5-a0e1-271556f7e6c0.png)
 
-Next, let’s get the chain data:
+<p>Next, let’s get the chain data:</p>
 
 ![image](https://user-images.githubusercontent.com/67673221/152831797-67fcbd0a-0b2b-49bd-998b-cb232b4459f5.png)
 
 # conclusion
- ## You can mine a block as well as view the list of blocks in the chain.
+ <p>You can mine a block as well as view the list of blocks in the chain.</p>
  
  
 
