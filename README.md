@@ -44,6 +44,7 @@ gcc -lstdc++ \
 <h2>From my terminal, the URL address is 172.20.10.2:5000.</h2>
 
 <h2>In the browser, we start by mining a block, and we do this by calling the mine_block route function we created:</h2>
+
 ![image](https://user-images.githubusercontent.com/67673221/152831162-0233597e-82cd-459f-86d2-cbe9c814f95d.png)
 
 <p>To call the mine_block function, we add the function name after the forward-slash, and it runs the code instruction under the block.</p>
